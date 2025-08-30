@@ -2,3 +2,4 @@ google-generativeai
 Pillow
 fastapi
 uvicorn
+python-multipart
