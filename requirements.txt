@@ -1,0 +1,4 @@
+google-generativeai
+Pillow
+fastapi
+uvicorn
