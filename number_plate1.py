@@ -12,7 +12,7 @@ API_KEY = os.environ.get('GOOGLE_API_KEY')
 if not API_KEY:
     # A fallback for local testing, but not recommended for production.
     # Replace with your actual key if not using environment variables.
-    API_KEY = 'AIzaSyDP8Ka-Iz1A0Qv5Xm_a-ocVOhZeFEPDXcs' 
+    API_KEY = 'AIzaSyCGDXqnMgPe9R-Y_b0muHvZ-2MHR4YUWrI' 
 
 try:
     genai.configure(api_key=API_KEY)
