@@ -66,7 +66,7 @@ async def analyze_vehicle_image(image_bytes: bytes):
         # If anything goes wrong during the analysis, log it and raise an exception.
         print(f"An error occurred during Gemini analysis: {e}")
         # Raising an HTTPException is the standard FastAPI way to send error responses.
-        raise HTTPException(status_code=500, detail="An internal error occurred during image analysis.")
+        raise HTTPException(status_code=500, detail=e)
 
 # --- API Endpoint Definition ---
 # This decorator defines the URL and the allowed method.
